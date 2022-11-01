@@ -17,7 +17,7 @@ const MobileMenu = () => {
             isMenuVisible &&
             <Fragment>
                 <img src={cross} alt="w-[18px] h-[19px]" onClick={toggleHandler}/>
-                <div className="w-screen h-[603px] absolute top-[64px] right-0 left-0 bg-mobile_menu_gradient z-50  ">
+                <div className="w-screen h-[603px] absolute object-cover -bottom-[603px] right-0 left-0 bg-mobile_menu_gradient z-50  ">
                     <div
                         className=" mt-6 mx-6 py-8 bg-white rounded-[4px] flex flex-col justify-start items-center gap-y-6 font-public font-normal not-italic text-lg leading-[21px] text-center tracking-[-0.138462px] text-[#2D314D]  ">
                         <p>Home</p>

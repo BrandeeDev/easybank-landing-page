@@ -9,16 +9,17 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <Fragment>
+        <main className="min-h-screen w-screen overflow-hidden" >
             <Header/>
 
             <Layout>
+
                 <Presentation/>
                 <ReasonsList/>
                 <ArticleList/>
             </Layout>
             <Footer/>
-        </Fragment>
+        </main>
 
     );
 }
