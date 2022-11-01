@@ -45,7 +45,7 @@ const articles = [
 ];
 const ArticleList = () => {
 
-    return (<div className="py-[88px] px-6 flex flex-col justify-start items-center lg:items-start lg:px-[165px]  ">
+    return (<div className="py-[88px] px-6 flex flex-col justify-start items-center lg:items-start lg:px-[165px] lg:py-[80px] ">
         <h3 className="font-public not-italic text-[32px] leading-[38px] text-center tracking-[-0.571429px] text-[#2D314D] lg:text-[40px] lg:leading-[64px) lg:tracking-[-0.714286px]">Latest
             Articles</h3>
         <ul className="mt-[31px] lg:mt-[40px] w-full  flex flex-col justify-start items-end gap-y-6 list-none lg:w-full lg:flex-row lg:justify-between lg:gap-x-[30px] lg:items-start ">
