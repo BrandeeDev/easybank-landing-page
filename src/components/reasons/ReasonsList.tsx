@@ -34,7 +34,7 @@ const ReasonsList = () => {
         <p className="mt-[14px] font-public not-italic font-normal text-[15px] leading-[25px] text-center tracking-[-0.234375px] text-[#9597A5] lg:text-left lg:w-[635px] lg:text-lg lg:leading-7 lg:tracking-[-0.28125px] lg:mt-4">We
             leverage Open Banking to turn your bank account into your financial hub. Control your finances like never
             before.</p>
-        <ul className="mt-[56px] flex  flex-col justify-start items-center gap-y-8 list-none  lg:w-full lg:flex-row lg:justify-between  ">
+        <ul className="mt-[56px] lg:mt-[72px] flex  flex-col justify-start items-center gap-y-8 list-none  lg:w-full lg:flex-row lg:justify-between  ">
             {reasons.map(item => <li key={item.id}><ReasonItem image={item.image} title={item.title}
                                                                content={item.content}/></li>)}
 
